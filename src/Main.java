@@ -8,8 +8,8 @@ public class Main {
         }
         if (adding >= 1100) {
             int bonus = adding / 100;
-            int total_2 = balance + adding + bonus;
-            System.out.println("Ваш баланс равен : " + total_2 + ", Вам начислено бонусных баллов : " + bonus);
+            int totalAll = balance + adding + bonus;
+            System.out.println("Ваш баланс равен : " + totalAll + ", Вам начислено бонусных баллов : " + bonus);
         }
     }
 }
